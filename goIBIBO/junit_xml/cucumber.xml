@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+<testcase classname="GoIBIBO Application" name="Verify Active Tab" time="0">
+<system-out><![CDATA[Given Log into the application..............................................skipped
+Then Verify whether the active Tab is Flights...............................skipped
+]]></system-out>
+</testcase>
+</testsuite>

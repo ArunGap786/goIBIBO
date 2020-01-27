@@ -1,0 +1,44 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify Active Tab",
+        "description": "",
+        "id": "goibibo-application;verify-active-tab",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Log into the application",
+            "match": {
+              "location": "LoginStepDefintions.log_into_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Verify whether the active Tab is Flights",
+            "match": {
+              "location": "LoginStepDefintions.verify_whether_the_active_Tab_is_Flights()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "GoIBIBO Application",
+    "description": "",
+    "id": "goibibo-application",
+    "keyword": "Feature",
+    "uri": "C:/Java/goIBIBO/src/main/java/features/SampleLogin.Feature"
+  }
+]
