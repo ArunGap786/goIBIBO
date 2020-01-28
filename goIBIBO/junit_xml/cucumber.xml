@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.674081">
-<testcase classname="GoIBIBO Application" name="Verify Active Tab" time="18.674081">
-<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at stepDefintions.LoginStepDefintions.verify_whether_the_active_Tab_is_Flights(LoginStepDefintions.java:33)&#13;&#10;&#9;at ✽.Then Verify whether the active Tab is Flights(C:/Users/358978/git/goIBIBO/goIBIBO/src/main/java/features/SampleLogin.Feature:6)&#13;&#10;"><![CDATA[Given Log into the application..............................................passed
-Then Verify whether the active Tab is Flights...............................failed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.238223">
+<testcase classname="GoIBIBO Application" name="Navigate to all other tabs and verify whether the same is highlighted" time="15.238223">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at com.sun.proxy.$Proxy15.getAttribute(Unknown Source)&#13;&#10;&#9;at com.qa.pages.HomePage.isActive(HomePage.java:101)&#13;&#10;&#9;at stepDefintions.LoginStepDefintions.verify_the_active_tab(LoginStepDefintions.java:44)&#13;&#10;&#9;at ✽.Then verfiy whether the active tab is &quot;Flights&quot;(C:/Users/358978/git/goIBIBO/goIBIBO/src/main/java/features/SampleLogin.Feature:14)&#13;&#10;"><![CDATA[Given User logs into the application........................................passed
+When user selects the "Flights" link........................................passed
+Then verfiy whether the active tab is "Flights".............................failed
+And close the browser.......................................................skipped
 
 StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at stepDefintions.LoginStepDefintions.verify_whether_the_active_Tab_is_Flights(LoginStepDefintions.java:33)
-	at ✽.Then Verify whether the active Tab is Flights(C:/Users/358978/git/goIBIBO/goIBIBO/src/main/java/features/SampleLogin.Feature:6)
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.getAttribute(Unknown Source)
+	at com.qa.pages.HomePage.isActive(HomePage.java:101)
+	at stepDefintions.LoginStepDefintions.verify_the_active_tab(LoginStepDefintions.java:44)
+	at ✽.Then verfiy whether the active tab is "Flights"(C:/Users/358978/git/goIBIBO/goIBIBO/src/main/java/features/SampleLogin.Feature:14)
 ]]></failure>
 </testcase>
 </testsuite>
