@@ -12,7 +12,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 18620921997,
+              "status": "passed"
             },
             "line": 5,
             "name": "Log into the application",
@@ -23,7 +24,9 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 53158609,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat stepDefintions.LoginStepDefintions.verify_whether_the_active_Tab_is_Flights(LoginStepDefintions.java:33)\r\n\tat ✽.Then Verify whether the active Tab is Flights(C:/Users/358978/git/goIBIBO/goIBIBO/src/main/java/features/SampleLogin.Feature:6)\r\n",
+              "status": "failed"
             },
             "line": 6,
             "name": "Verify whether the active Tab is Flights",
@@ -39,6 +42,6 @@
     "description": "",
     "id": "goibibo-application",
     "keyword": "Feature",
-    "uri": "C:/Java/goIBIBO/src/main/java/features/SampleLogin.Feature"
+    "uri": "C:/Users/358978/git/goIBIBO/goIBIBO/src/main/java/features/SampleLogin.Feature"
   }
 ]

@@ -1,7 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
-<testcase classname="GoIBIBO Application" name="Verify Active Tab" time="0">
-<system-out><![CDATA[Given Log into the application..............................................skipped
-Then Verify whether the active Tab is Flights...............................skipped
-]]></system-out>
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.674081">
+<testcase classname="GoIBIBO Application" name="Verify Active Tab" time="18.674081">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at stepDefintions.LoginStepDefintions.verify_whether_the_active_Tab_is_Flights(LoginStepDefintions.java:33)&#13;&#10;&#9;at ✽.Then Verify whether the active Tab is Flights(C:/Users/358978/git/goIBIBO/goIBIBO/src/main/java/features/SampleLogin.Feature:6)&#13;&#10;"><![CDATA[Given Log into the application..............................................passed
+Then Verify whether the active Tab is Flights...............................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefintions.LoginStepDefintions.verify_whether_the_active_Tab_is_Flights(LoginStepDefintions.java:33)
+	at ✽.Then Verify whether the active Tab is Flights(C:/Users/358978/git/goIBIBO/goIBIBO/src/main/java/features/SampleLogin.Feature:6)
+]]></failure>
 </testcase>
 </testsuite>

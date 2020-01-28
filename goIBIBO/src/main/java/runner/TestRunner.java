@@ -8,12 +8,12 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
-		features="C:\\Java\\goIBIBO\\src\\main\\java\\features\\SampleLogin.Feature",
+		features="C:\\Users\\358978\\git\\goIBIBO\\goIBIBO\\src\\main\\java\\features\\SampleLogin.Feature",
 		glue= {"stepDefintions"},
 		format = {"pretty","html:test-output","json:json_output/cucumber.json","junit:junit_xml/cucumber.xml"},
 		monochrome=true,
 		strict = true,
-		dryRun = true
+		dryRun = false
 		)
 
 public class TestRunner {
